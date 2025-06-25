@@ -1,0 +1,12 @@
+oggy-assistant/
+├── app/
+│   ├── main.py             # FastAPI app with route
+│   ├── ai_engine.py        # GPT-4 interaction logic
+│   ├── language_utils.py   # Multilingual detection/handling
+│   └── session_manager.py  # For multi-question handling
+├── templates/
+│   └── index.html          # Simple chat frontend (HTML+JS)
+├── static/
+│   └── style.css           # Chat UI styling
+├── requirements.txt
+└── README.md
